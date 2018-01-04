@@ -29,6 +29,7 @@ const App = React.createClass({
   render: function() {
     return (
       React.createElement('div', {className:'App'},
+        React.createElement('h1', {className: 'title'}, 'Lista kontaktów'),
         React.createElement(ContactForm, {contact: ContactForm}),
           React.createElement(Contacts, {items: contacts}, {})
       )

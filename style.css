@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700&subset=latin-ext');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+  background: #868A52;
+  border: 3px solid #3A4244;
+}
+
+.container h1 {
+  font-size: 30px;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-transform: uppercase;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+
+/* form */
+.container form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container form input {
+  width: 280px;
+  height: 40px;
+  padding-left: 3px;
+  margin: 15px;
+  font-size: 20px;
+}
+
+.container form input:focus {
+  border: #017C8D 1px solid;
+}
+
+.container form button {
+  width: 280px;
+  height: 40px;
+  background: #017C8D;
+  font-size: 20px;
+  border: 2px solid black;
+  margin: 15px;
+  transition: .2s ease-in-out;
+}
+
+.container form button:hover {
+  background: #345256;
+  color: #f4f4f4;
+}
+
+/* contact item */
+.container .contactItem {
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container .contactItem img {
+  width: 200px;
+  height: 200px;
+}
+
+.container .contactItem .itemValue {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.container .contactItem .itemValue a {
+  color: #3A4244;
+  transition: .3s ease-out;
+}
+
+.container .contactItem .itemValue a:hover {
+  color: #B8C50E;
+}
